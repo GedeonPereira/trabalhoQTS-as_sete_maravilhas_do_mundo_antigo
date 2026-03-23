@@ -38,7 +38,7 @@ o trabalho englobara somente o desktop e mobile
 
 ---
 
-#Cores que serão utilizadas:
+# Cores que serão utilizadas:
 
 * bege deserto (#E6D5B8)
 * Verde Romano (#3C473A)
