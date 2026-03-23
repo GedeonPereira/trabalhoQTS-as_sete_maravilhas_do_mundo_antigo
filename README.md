@@ -30,3 +30,13 @@ o projeto tem:
 o evento de click utiliza o addEventListenner
 
 ** o html sera fluido **
+
+---
+
+o trabalho englobara somente o desktop e mobile
+
+---
+
+#Cores que serão utilizadas:
+
+* 
