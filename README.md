@@ -12,6 +12,7 @@ nao sera utikizado uma patten porem sera utilizado BEM CSS
 
 * sera utilizado :root{}
 * sera utilizado tabs de itentificação
+* as cores serao esquemadas em hexadecimal no :root{} porem depois eu usarei os nomes das cores pra usar no codigo de css inteiro
 
 ---
 
@@ -39,4 +40,7 @@ o trabalho englobara somente o desktop e mobile
 
 #Cores que serão utilizadas:
 
-* 
+* bege deserto (#E6D5B8)
+* Verde Romano (#3C473A)
+* Areia Clara (#F5F5DC)
+* Ouro Envelhecido (#C5A059)
