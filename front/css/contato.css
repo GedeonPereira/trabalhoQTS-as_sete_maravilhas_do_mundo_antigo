@@ -1,0 +1,86 @@
+:root{
+	--bege:#E6D5B8;
+	--verde:#3C473A;
+	--areia:#F5F5DC;
+	--ouro:#C5A059;
+}
+
+/* FUNDO */
+.contato{
+	background:linear-gradient(135deg, var(--areia), var(--bege));
+	min-height:100vh;
+}
+
+/* NAVBAR */
+.home__nav{
+	background-color:var(--verde);
+	padding:10px 0;
+}
+
+/* LOGO */
+.logo{
+	width:50px;
+	height:50px;
+	object-fit:cover;
+	border-radius:50%;
+}
+
+.nav-link{
+	color:var(--areia) !important;
+}
+
+.nav-link:hover{
+	color:var(--ouro) !important;
+}
+
+.contato__titulo{
+	color:var(--verde);
+	font-weight:700;
+	letter-spacing:1px;
+}
+
+.contato__form{
+	max-width:500px;
+	margin:auto;
+	background-color:var(--verde);
+	padding:25px;
+	border-radius:16px;
+	box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+.contato__input{
+	background-color:var(--areia);
+	border:none;
+	padding:10px;
+	transition:0.3s;
+}
+
+.contato__input:focus{
+	outline:none;
+	box-shadow:0 0 0 2px var(--ouro);
+}
+
+.form-label{
+	color:var(--areia);
+	font-weight:500;
+}
+
+.contato__botao{
+	background-color:var(--ouro);
+	border:none;
+	padding:10px 25px;
+	font-weight:600;
+	transition:0.3s;
+	border-radius:8px;
+}
+
+.contato__botao:hover{
+	transform:scale(1.08);
+	box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+@media (max-width:576px){
+	.contato__form{
+		padding:15px;
+	}
+}

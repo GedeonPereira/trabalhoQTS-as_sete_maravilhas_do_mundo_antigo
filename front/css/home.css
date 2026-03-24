@@ -1,0 +1,81 @@
+:root{
+	--bege:#E6D5B8;
+	--verde:#3C473A;
+	--areia:#F5F5DC;
+	--ouro:#C5A059;
+}
+
+
+.home{
+	background-color:var(--areia);
+}
+
+
+.home__nav{
+	background-color:var(--verde);
+	padding:10px 0;
+}
+
+.logo{
+	width: auto;
+	height: 40px;
+	object-fit:cover;
+	border-radius:50%;
+}
+
+.nav-link{
+	color:var(--areia) !important;
+	transition:0.3s;
+}
+
+.nav-link:hover{
+	color:var(--ouro) !important;
+}
+
+.navbar-toggler{
+	border:none;
+}
+
+.home__titulo{
+	color:var(--verde);
+	font-weight:700;
+}
+
+.home__texto{
+	color: var(--verde);
+}
+
+.home__card{
+	border:none;
+	border-radius:12px;
+	color: var(--verde);
+	overflow:hidden;
+	box-shadow:0 4px 12px rgba(0,0,0,0.15);
+	transition:0.3s;
+}
+
+.home__card:hover{
+	transform:translateY(-5px);
+}
+
+
+.home__card img{
+	height:200px;
+	object-fit:cover;
+}
+
+
+.home__botao{
+	background-color:var(--ouro);
+	border:none;
+	transition:0.3s;
+}
+
+.home__botao:hover{
+	transform:scale(1.05);
+	opacity:0.9;
+}
+
+.home__botao:active{
+	transform:scale(0.95);
+}

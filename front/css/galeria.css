@@ -1,0 +1,89 @@
+:root{
+	--bege:#E6D5B8;
+	--verde:#3C473A;
+	--areia:#F5F5DC;
+	--ouro:#C5A059;
+}
+
+.galeria{
+	background-color:var(--areia);
+}
+
+.home__nav{
+	background-color:var(--verde);
+	padding:10px 0;
+}
+
+.logo{
+	width:50px;
+	height:50px;
+	object-fit:cover;
+	border-radius:50%;
+}
+
+.nav-link{
+	color:var(--areia) !important;
+	transition:0.3s;
+}
+
+.nav-link:hover{
+	color:var(--ouro) !important;
+}
+
+.navbar-toggler{
+	border:none;
+}
+
+.galeria__titulo{
+	color:var(--verde);
+	font-weight:700;
+}
+
+.galeria__card{
+	background-color:var(--verde);
+	border:none;
+	border-radius:12px;
+	overflow:hidden;
+	box-shadow:0 4px 12px rgba(0,0,0,0.2);
+	transition:0.4s;
+	max-width:900px;
+	margin:auto;
+}
+
+.galeria__card--ativo{
+	transform:scale(1.02);
+}
+
+.galeria__img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+}
+
+.galeria__nome{
+	color:var(--ouro);
+	font-weight:700;
+}
+
+
+.galeria__texto{
+	color:var(--areia);
+	display:none;
+	margin-top:10px;
+}
+
+.galeria__texto--ativo{
+	display:block;
+}
+
+.galeria__botao{
+	background-color:var(--ouro);
+	border:none;
+	margin-top:10px;
+	transition:0.3s;
+}
+
+.galeria__botao:hover{
+    background-color: var(--bege);
+	transform:scale(1.05);
+}
