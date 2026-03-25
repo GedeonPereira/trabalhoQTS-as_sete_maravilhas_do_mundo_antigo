@@ -44,3 +44,10 @@ o trabalho englobara somente o desktop e mobile
 * Verde Romano (#3C473A)
 * Areia Clara (#F5F5DC)
 * Ouro Envelhecido (#C5A059)
+
+# imagens dos mainframes
+
+![home](front/images/home_mainframe.png)
+![galeria](front/images/galeria_mainframe.png)
+![sobre](front/images/sobre_mainframe.png)
+![contato](front/images/contato_mainframe.png)
