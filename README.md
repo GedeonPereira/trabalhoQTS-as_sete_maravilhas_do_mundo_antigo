@@ -4,7 +4,7 @@
 
 ---
 
-nao sera utikizado uma patten porem sera utilizado BEM CSS
+nao sera utilizado uma patten porem sera utilizado BEM CSS
 
 ---
 
@@ -19,10 +19,9 @@ nao sera utikizado uma patten porem sera utilizado BEM CSS
 # regras do javascript
 
 o projeto tem:
-* variaveis
 * funçoes
-* classes
-* objetos
+* classes com constructor
+* sera utilizado para fazer animações 
 
 ---
 
