@@ -11,6 +11,8 @@ class Card{
 	}
 }
 
+
+
 function iniciar(){
 	const cards = document.querySelectorAll(".galeria__card");
 

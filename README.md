@@ -11,7 +11,6 @@ nao sera utilizado uma patten porem sera utilizado BEM CSS
 # esquema de cor
 
 * sera utilizado :root{}
-* sera utilizado tabs de itentificação
 * as cores serao esquemadas em hexadecimal no :root{} porem depois eu usarei os nomes das cores pra usar no codigo de css inteiro
 
 ---
